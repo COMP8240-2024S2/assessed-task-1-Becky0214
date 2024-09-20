@@ -80,7 +80,8 @@ The script works by utilizing a regular expression that identifies punctuation f
 
 After applying this fix, the evaluation metrics (Precision, Recall, F1) improved slightly. This enhancement ensures more accurate tagging of named entities by eliminating false positives caused by incorrect punctuation tagging.
 
-By using the corrected text, the NER system performs better, leading to more reliable entity recognition and an overall increase in accuracy during evaluation.v
+By using the corrected text, the NER system performs better, leading to more reliable entity recognition and an overall increase in accuracy during evaluation.
+
 ```
 Before fix-ner.py:
        Entity	P	   R     F1     TP	FP	FN
@@ -98,9 +99,8 @@ After fix-ner.py:
 README.md: Project instructions and details.
 
 
-"Use of AI generators in this assessed task" :
-I used Chatgpt for ... code and text for make it 
-What part of your work is based on the output of such tools,
-What tools you used,
-What prompts you used to generate the code or text, and
-What modifications you made on the generated code or text.
+Use of AI generators in this assessed task :
+
+I used ChatGPT to help me refine the extract_wikipedia and fix-ner.py script (only for regex). ChatGPT provided guidance on the regular expression logic. Additionally, I used ChatGPT to assist with generating explanations, summaries, and text related to the script.
+
+
