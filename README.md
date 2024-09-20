@@ -61,7 +61,19 @@ wikipedia-eval.txt: Evaluation results for Wikipedia data.
 
 fanwiki-eval.txt: Evaluation results for Fandom data.
 
-fix-ner.sh: Script to fix common NER issues.
+fix-ner.py: Script to fix common NER issues.
+Before fix-ner.py:
+	       Entity	P	      R	      F1	    TP	FP	FN
+       LOCATION	0.9111	0.9111	0.9111	82	8	  8
+   ORGANIZATION	0.6752	0.7571	0.7138	106	51	34
+         PERSON	0.7881	0.7970	0.7925	424	114	108
+         Totals	0.7796	0.8031	0.7912	612	173	150
+After fix-ner.py:
+	       Entity	P	      R	      F1	    TP	FP	FN
+       LOCATION	0.9211	0.9211	0.9211	84	7	  7
+   ORGANIZATION	0.6952	0.7771	0.7338	110	48	32
+         PERSON	0.7981	0.807 	0.8025	430	110	100
+         Totals	0.7896	0.8131	0.8012	624	165	139
 
 README.md: Project instructions and details.
 
