@@ -16,8 +16,6 @@ This project involves setting up and evaluating the performance of a Named Entit
 
 -Writing scripts for automation and evaluation of the NER results.
 
--Prerequisites
-
 -Before running the project, I ensured the following tools are installed in my VM:
 
 Java (as the Stanford NER system requires it).
@@ -62,6 +60,8 @@ wikipedia-eval.txt: Evaluation results for Wikipedia data.
 fanwiki-eval.txt: Evaluation results for Fandom data.
 
 fix-ner.py: Script to fix common NER issues.
+
+discussion.txt: Discussion of NER Evaluation Results
 
 ### Evaluation Metrics
 
