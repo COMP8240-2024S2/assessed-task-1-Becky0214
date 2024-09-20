@@ -4,19 +4,21 @@
 
 This project involves setting up and evaluating the performance of a Named Entity Recognition (NER) system. The tasks include:
 
--Setting up a Virtual Machine (VM) in GitHub Codespaces.  
+-Setting up a Virtual Machine (VM) in my personal computer.  
 
--Installing the Stanford NER system.
+-Installing the Stanford NER system on my VM using wget.
 
--Scraping text data from Wikipedia and Fandom.
+-Scraping text data from Wikipedia and Fandom using their own Python libraries. (I have used some GPT coding help for Wikipedia scraping script.)
 
--The NER system is running on the scraped data.
+-The NER system was then used on the scraped data and it showed me the results with tags.
 
--Evaluating the system's performance by creating a gold standard.
+-Also used Python code to list all NERs in a single file.
+
+-Evaluated the system's performance by creating a gold standard with Python code. (I have also used some help on gold standard creation as it was too much to fix by hand.)
 
 -Writing scripts for automation and evaluation of the NER results.
 
--Before running the project, I ensured the following tools are installed in my VM:
+-Before running the project, I ensured the following tools were installed in my VM:
 
 Java (as the Stanford NER system requires it).
 
